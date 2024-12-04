@@ -1,0 +1,39 @@
+body{
+    font-family: "Public Sans", sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista-de-imagens {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pintura{
+    position: relative;
+}
+
+.informacoes{
+    position: absolute;
+    bottom: 10%;
+    padding-left: 26px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.informacoes h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.informacoes span{
+    font-size: 17px;
+    font-weight: 300;
+}

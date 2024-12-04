@@ -1,0 +1,25 @@
+@media(max-width: 1200px){
+    .lista-de-imagens{
+       flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 768px){
+    .container {
+        padding-inline: 20px;
+        padding-block: 40px;
+        padding: 40px 20px;
+    }
+    .lista-de-imagens {
+        gap: 0;
+    }
+}
+
+@media(max-width: 425px) {
+   
+  
+}
+
+@media(max-width: 375px) {
+  
+}
